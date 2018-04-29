@@ -17,3 +17,8 @@ pushd
 
 1. copy cp -R /opt/conda/lib/python3.5/site-packages/tensorflow/include  /mnt/notebooks/obj_tf
 2. MAKEOBJDIRPREFIX=/mnt/notebooks/obj_tf gtags
+
+# Part 3: Scala
+1. install `ensime` for emacs
+2. refer to http://ensime.github.io/ for `Ensime`
+3. add the plugins.sbt to .sbt in home directory
