@@ -22,3 +22,9 @@ pushd
 1. install `ensime` for emacs
 2. refer to http://ensime.github.io/ for `Ensime`
 3. add the plugins.sbt to .sbt in home directory
+
+# Part 4: Java
+1. install eclipse from sources
+2. install eclim http://eclim.org/install.html; important: must run headless server
+3. mvn eclipse:eclipse in the project directory
+4. install the emacs eclimd extension
