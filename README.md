@@ -28,3 +28,8 @@ pushd
 2. install eclim http://eclim.org/install.html; important: must run headless server
 3. mvn eclipse:eclipse in the project directory
 4. install the emacs eclimd extension
+
+# PART TO DEVELOP
+Code factorization and customization look at
+https://github.com/kpurdon/.emacs.d/
+https://realpython.com/emacs-the-best-python-editor/#configuration-and-packages
