@@ -5,7 +5,7 @@
 
 ;; uncomment this if you want to install via emacs+pip these
 ;; required packages (otherwise supply, e.g. a python environment)
-;;(shell-command "pip install --user jedi flake8 autopep8 yapf")
+;;(shell-command "pip install --user jedi flake8 autopep8 yapf pylint")
 
 (defvar scala-packages
   '(elpy
