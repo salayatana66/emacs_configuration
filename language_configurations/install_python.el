@@ -7,7 +7,7 @@
 ;; required packages (otherwise supply, e.g. a python environment)
 ;;(shell-command "pip install --user jedi flake8 autopep8 yapf pylint")
 
-(defvar scala-packages
+(defvar python-packages
   '(elpy
     flycheck
     py-autopep8))
@@ -16,6 +16,6 @@
     (package-refresh-contents))
 (package-initialize)
 
-(dolist (p scala-packages)
+(dolist (p python-packages)
   (when (not (package-installed-p p))
 (package-install p)))
