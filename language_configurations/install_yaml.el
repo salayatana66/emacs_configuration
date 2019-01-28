@@ -3,7 +3,7 @@
 (add-to-list 'package-archives
 	     '("melpa" . "http://melpa.org/packages/"))
 
-(defvar scala-packages
+(defvar yaml-packages
   '(yaml-mode))
   
 
@@ -11,6 +11,6 @@
     (package-refresh-contents))
 (package-initialize)
 
-(dolist (p scala-packages)
+(dolist (p yaml-packages)
   (when (not (package-installed-p p))
 (package-install p)))
